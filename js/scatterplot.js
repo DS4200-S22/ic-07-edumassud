@@ -61,7 +61,7 @@ d3.csv("data/scatter.csv").then((data) => {
         .attr("font-size", '20px'); // set font size
 
   // add our circles with styling 
-  svg1.selectAll(".bar") 
+  svg1.selectAll("circle") 
       .data(data)
       .enter()  
       .append("circle")
